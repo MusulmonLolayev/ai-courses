@@ -19,20 +19,28 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
-language = 'uz_latin'
+language = 'en'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_book_theme'
+html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
+
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+html_theme_options = {
+    "collapse_navigation" : False
+}
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 extensions = [
     "nbsphinx",
-    'sphinx.ext.mathjax'
+    'sphinx.ext.mathjax',
+    'sphinx_rtd_theme',
 ]
 
 exclude_patterns = ['_build', '**.ipynb_checkpoints']

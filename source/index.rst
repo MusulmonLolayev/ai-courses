@@ -6,11 +6,12 @@
 Sun'iy Intellekt!
 ============================================
 
-Mundarija
----------
-
 .. toctree::
    intro
    history
-   python_intro
-   lalgebra_intro
+
+.. toctree::
+   python/index
+
+.. toctree::
+   lalgebra/index
