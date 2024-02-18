@@ -41,6 +41,8 @@ extensions = [
     "nbsphinx",
     'sphinx.ext.mathjax',
     'sphinx_rtd_theme',
+    'sphinx.ext.todo',
+    'sphinx.ext.ifconfig'
 ]
 
 exclude_patterns = ['_build', '**.ipynb_checkpoints']
@@ -49,3 +51,11 @@ numfig = True
 math_numfig = True
 numfig_secnum_depth = 2
 math_eqref_format = "Eq.{number}"
+
+mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+
+mathjax_config = {
+    'TeX': {'equationNumbers': {'autoNumber': 'AMS', 'useLabelIds': True}},
+}
+
+suppress_warnings = ['autosectionlabel.*']
