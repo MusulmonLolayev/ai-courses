@@ -31,14 +31,13 @@ Sun'iy Intellekt faniga xush kelibsiz
    python1/built_in_funcs
    python1/if_else
    python1/tasks2
-   
 
 .. toctree::
    :caption: Chiziqli algebra 1
    :maxdepth: 2
 
    lalgebra1/intro
-   .. lalgebra1/vectors
+   lalgebra1/vectors
    lalgebra1/matrices
    lalgebra1/tasks
 
@@ -46,6 +45,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    :caption: Python tili 2
    :maxdepth: 2
 
+   python2/while_loop
    python2/arrays
-   python2/loops
+   python2/for_loop
    python2/functions
