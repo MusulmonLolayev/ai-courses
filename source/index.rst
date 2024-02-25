@@ -47,5 +47,19 @@ Sun'iy Intellekt faniga xush kelibsiz
 
    python2/while_loop
    python2/arrays
-   python2/for_loop
    python2/functions
+
+.. toctree::
+   :caption: Mashinali o'rganish 1
+   :maxdepth: 2
+
+   ml1/intro
+   ml1/nn
+   ml1/ml_tasks
+
+.. toctree::
+   :caption: Statistika va Ehtimolik 1
+   :maxdepth: 2
+
+   statistics_probability/statistics
+   statistics_probability/probabilities

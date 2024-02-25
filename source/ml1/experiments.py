@@ -1,6 +1,6 @@
 import numpy as np
-from source.utils.distances import distance
-from source.ml1.datasets import MNIST_train, MNIST_test
+from distances import distance
+from datasets import MNIST_train, MNIST_test
 
 
 def nearest_neighboor_mnist(n=100):
