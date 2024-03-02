@@ -63,3 +63,4 @@ Sun'iy Intellekt faniga xush kelibsiz
 
    statistics_probability/statistics
    statistics_probability/probabilities
+   statistics_probability/bayes_methods
