@@ -64,3 +64,10 @@ Sun'iy Intellekt faniga xush kelibsiz
    statistics_probability/statistics
    statistics_probability/probabilities
    statistics_probability/bayes_methods
+
+.. toctree::
+   :caption: Mashinali o'rganish 2
+   :maxdepth: 2
+
+   ml2/estimations
+   ml2/knn
