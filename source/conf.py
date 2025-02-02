@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Sun'iy Intellekt"
-copyright = '2023, Musulmon Lolaev'
+copyright = '2025, Musulmon Lolaev'
 author = 'Musulmon Lolaev'
-release = '1-tahrir'
+release = '1.1-tahrir'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

@@ -6,9 +6,16 @@
 Sun'iy Intellekt faniga xush kelibsiz
 ============================================
 
-| *Fanning veb sahifasi*: https://github.com/MusulmonLolayev/ai-courses
-| *Telegram kanali*: https://t.me/suniy_ong_uz
-| *Mualif*: Musulmon Lolaev
+|  *Fanning veb sahifasi*: https://github.com/MusulmonLolayev/ai-courses
+|  *Telegram kanali*: https://t.me/suniy_ong_uz
+|  *YouTube kanali*: https://www.youtube.com/@tqqt_llc
+|  *Mualif*: Musulmon Lolaev, "TQQT" LLC
+|  *Yangilangan*: 02.02.2025
+|  *Holati*: Tugalanmagan. Izoh: Ushbu ishni yozish davom etmoqda hamda har doim yangilanib boradi. Har qanday xatolikni uchratsangiz, iltimos bizga aloqaga chiqing va shu orqali ushbu ishning saviyasini oshirga hissa qo'shing.
+|  *Ruxsat*: Ushbu qo'llanmadan o'rganish uchun shaxsiy va tijoriy maqsadlarda foydalanish mumkin. Ammo qo'lanmaning biror qismidan yoki to'lig'icha olib biror "**Mualliflik**" asosida har qanday kitob, qo'llanman va h.k. chiqarish mumkin emas.
+|  *Aloqa uchun*: email -- musulmon.lolayev.94@gmail.com; (telegram) -- @mrd_rd.
+
+
 
 
 .. toctree::
@@ -56,6 +63,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    ml1/intro
    ml1/nn
    ml1/ml_tasks
+   ml1/estimations
 
 .. toctree::
    :caption: Statistika va Ehtimolik 1
@@ -66,8 +74,27 @@ Sun'iy Intellekt faniga xush kelibsiz
    statistics_probability/bayes_methods
 
 .. toctree::
+   :caption: Kutubxonalar: Numpy asoslari
+   :maxdepth: 2
+
+   libs1/numpy_lib
+
+.. toctree::
    :caption: Mashinali o'rganish 2
    :maxdepth: 2
 
-   ml2/estimations
    ml2/knn
+
+.. toctree::
+   :caption: Python 3
+   :maxdepth: 2
+
+   python3/for-loop
+   python3/set-dict
+   python3/functions
+
+.. toctree::
+   :caption: Kutubxonalar: Kengaytirilgan Numpy
+   :maxdepth: 2
+
+   libs2/numpy_lib

@@ -31,7 +31,7 @@ def bayes_compute_parameters(x, y, col):
     # buning uchun soddalik bo'lishi maqsadida
     # in opertatoridan foydalanimiz
     # bu operator agar ro'yxat ichida biror element bo'lsa True aks holda False 
-    # qaytaradi. Masalan, 3 in [4, 3, 5] => True yoki 3 in [4, 3, 5] => False
+    # qaytaradi. Masalan, 3 in [4, 3, 5] => True yoki 3 in [4, 6, 5] => False
     if current_val in uniques:
       # bo'lsa hech qanday amal bajarmaymiz
       pass
@@ -50,6 +50,7 @@ def bayes_compute_parameters(x, y, col):
   E'tibor bering bu o'zgaruvchi ikkita bo'ladi:
   bittasi diabetga chalinganlar soni uchun ikkinchisi esa chalinmaganlar uchun
   """
+  
   # vaqtincha bo'sh bo'ladi
   counts1 = []
   counts2 = []
