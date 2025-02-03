@@ -6,7 +6,7 @@
 Sun'iy Intellekt faniga xush kelibsiz
 ============================================
 
-|  *Fanning veb sahifasi*: https://github.com/MusulmonLolayev/ai-courses
+|  *GitHub*: https://github.com/MusulmonLolayev/ai-courses
 |  *Telegram kanali*: https://t.me/suniy_ong_uz
 |  *YouTube kanali*: https://www.youtube.com/@tqqt_llc
 |  *Mualif*: Musulmon Lolaev, "TQQT" LLC
