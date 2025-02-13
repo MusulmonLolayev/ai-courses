@@ -24,6 +24,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 
    intro
    history
+   quest_answers
 
 .. toctree::
    :caption: Python tili 1
