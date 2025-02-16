@@ -84,7 +84,8 @@ Sun'iy Intellekt faniga xush kelibsiz
    :caption: Mashinali o'rganish 2
    :maxdepth: 2
 
-   ml2/knn
+   ml2/knn_classification
+   ml2/knn_regression
 
 .. toctree::
    :caption: Python 3
