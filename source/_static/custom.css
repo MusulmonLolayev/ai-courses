@@ -1,0 +1,17 @@
+/* Ensure the sidebar content does not overflow */
+.wy-nav-side {
+    overflow-y: auto;
+}
+
+.wy-menu-vertical {
+    width: auto !important;
+}
+
+.wy-menu-vertical li.current a {
+    white-space: normal !important;
+}
+
+/* Ensure text wraps in the sidebar */
+.wy-menu-vertical li a {
+    white-space: normal !important;
+}
