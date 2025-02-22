@@ -75,6 +75,15 @@ Sun'iy Intellekt faniga xush kelibsiz
    statistics_probability/bayes_methods
 
 .. toctree::
+   :caption: Python 3
+   :maxdepth: 2
+
+   python3/for-loop
+   python3/set-dict
+   python3/functions
+   
+
+.. toctree::
    :caption: Kutubxonalar: Numpy asoslari
    :maxdepth: 2
 
@@ -87,13 +96,6 @@ Sun'iy Intellekt faniga xush kelibsiz
    ml2/knn_classification
    ml2/knn_regression
 
-.. toctree::
-   :caption: Python 3
-   :maxdepth: 2
-
-   python3/for-loop
-   python3/set-dict
-   python3/functions
 
 .. toctree::
    :caption: Kutubxonalar: Kengaytirilgan Numpy
