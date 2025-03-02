@@ -58,7 +58,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    python2/functions
 
 .. toctree::
-   :caption: Mashinali o'rganish 1
+   :caption: Mashinali o'rganish 1: Kirish
    :maxdepth: 2
 
    ml1/intro
@@ -90,7 +90,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    libs1/numpy_lib
 
 .. toctree::
-   :caption: Mashinali o'rganish 2
+   :caption: Mashinali o'rganish 2: Parametri bo'lmagan usullar
    :maxdepth: 2
 
    ml2/knn_classification
