@@ -90,9 +90,10 @@ Sun'iy Intellekt faniga xush kelibsiz
    libs1/numpy_lib
 
 .. toctree::
-   :caption: Mashinali o'rganish 2: Parametri bo'lmagan usullar
+   :caption: Mashinali o'rganish 2: Parametrsiz usullar
    :maxdepth: 2
 
+   ml2/intro
    ml2/knn_classification
    ml2/knn_regression
 
