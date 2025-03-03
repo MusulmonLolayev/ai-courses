@@ -19,6 +19,8 @@ def MNIST_test():
 
 def MINST_sample_img():
   x, y = MNIST_train()
+  x = np.array(x)
+  y = np.array(y)
 
   # Number of rows and columns in the grid
   num_rows = 10
@@ -46,7 +48,7 @@ def MINST_sample_img():
   plt.tight_layout()
 
   # Show the plot
-  plt.savefig('MINST_sample.png')
+  plt.savefig('./images/MINST_sample.svg')
 
 def dog_wolf_2D():
   x = [
@@ -78,7 +80,7 @@ def dog_wolf_2D_img():
   plt.legend()
   plt.xlabel("Balandligi (sm)")
   plt.ylabel("Uzunligi (sm)")
-  plt.savefig("dog_wolf_sample_2D.png")
+  plt.savefig("./images/dog_wolf_sample_2D.svg")
 
 
 def diabet_train(tr_size=0.8, random_seed=42, is_list=True):
@@ -110,4 +112,9 @@ def diabet_test(tr_size=0.8, random_seed=42, is_list=True):
     return data[:, 1:].tolist(), data[:, 0].tolist()
   else:
     return data[:, 1:], data[:, 0]
+
+
+if __name__ == "__main__":
+  # dog_wolf_2D_img()
+  MINST_sample_img()
 
