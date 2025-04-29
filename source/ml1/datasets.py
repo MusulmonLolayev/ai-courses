@@ -114,7 +114,40 @@ def diabet_test(tr_size=0.8, random_seed=42, is_list=True):
     return data[:, 1:], data[:, 0]
 
 
+def show_digit_with_grid(digit=0):
+    # Load MNIST data
+    x, y = MNIST_train()
+    x = np.array(x)
+    y = np.array(y)
+
+    # Find the first instance of the requested digit
+    for img, label in zip(x, y):
+        if label == digit:
+            break
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
+    img = img.reshape(28, 28)
+    # Show the image
+    ax1.imshow(img, cmap='gray')
+    # ax1.set_title(f"Digit {digit} Image")
+    ax1.axis('off')
+
+    # Show the grid of pixel values
+    table = ax2.table(cellText=img.astype(int),
+              loc='center',
+              cellLoc='center')
+    table.auto_set_font_size(False)
+    table.set_fontsize(5)
+    ax2.axis('off')
+    # ax2.set_title("Pixel Grid")
+
+    plt.tight_layout()
+    plt.savefig('./images/zero_with_values.svg')
+
+
+
 if __name__ == "__main__":
   # dog_wolf_2D_img()
-  MINST_sample_img()
+  # MINST_sample_img()
+  show_digit_with_grid()
 
