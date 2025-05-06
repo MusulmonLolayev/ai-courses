@@ -10,7 +10,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 |  *Telegram kanali*: https://t.me/suniy_ong_uz
 |  *YouTube kanali*: https://www.youtube.com/@tqqt_llc
 |  *Mualif*: Musulmon Lolaev, "TQQT" LLC
-|  *Yangilangan*: 02.02.2025
+|  *Yangilangan*: 06.05.2025
 |  *Holati*: Tugalanmagan. Izoh: Ushbu ishni yozish davom etmoqda hamda har doim yangilanib boradi. Har qanday xatolikni uchratsangiz, iltimos bizga aloqaga chiqing va shu orqali ushbu ishning saviyasini oshirishga hissa qo'shing.
 |  *Ruxsat*: Ushbu qo'llanmadan o'rganish uchun shaxsiy va tijoriy maqsadlarda foydalanish mumkin. Ammo qo'lanmaning biror qismidan yoki to'lig'icha olib biror "**Mualliflik**" asosida har qanday kitob, qo'llanman va h.k. chiqarish mumkin emas.
 |  *Aloqa uchun*: email -- musulmon.lolayev.94@gmail.com; (telegram) -- @mrd_rd.
