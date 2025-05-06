@@ -94,8 +94,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    :maxdepth: 2
 
    ml2/intro
-   ml2/knn_classification
-   ml2/knn_regression
+   ml2/knn
 
 
 .. toctree::
