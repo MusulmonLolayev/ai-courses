@@ -95,6 +95,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 
    ml2/intro
    ml2/knn
+   ml2/distance_metrics
 
 
 .. toctree::
