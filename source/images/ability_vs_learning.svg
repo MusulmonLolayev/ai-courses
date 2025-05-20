@@ -1,0 +1,51 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 20px sans-serif; fill: #333; }
+    .axis-label { font: 14px sans-serif; fill: #555; }
+    .label { font: 12px sans-serif; fill: #000; }
+    .curve1 { fill: none; stroke: #2a9d8f; stroke-width: 3; }
+    .curve2 { fill: none; stroke: #e76f51; stroke-width: 3; stroke-dasharray: 6,4; }
+    .legend { font: 14px sans-serif; }
+  </style>
+  <rect width="100%" height="100%" x="0" y="0" fill="white" />
+
+  <!-- Title -->
+  <text x="100" y="30" class="title">Vaqt o'tishi bilan bilim oshishi: Uzluksiz o'rganuvchi va qobiliyat</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="340" x2="740" y2="340" stroke="#000" />
+  <line x1="60" y1="340" x2="60" y2="60" stroke="#000" />
+  <text x="375" y="380" class="axis-label">Yillar</text>
+  <text x="-20" y="220" class="axis-label" transform="rotate(-90,10,200)">Bilim oshishi</text>
+
+  <!-- Curves -->
+  <!-- Continuous Learner -->
+  <path class="curve1" d="M60,320 C180,250 300,200 420,140 C540,110 660,90 740,80" />
+  <!-- High Initial Ability with slow growth -->
+  <path class="curve2" d="M60,150 C180,160 300,170 420,165 C540,160 660,155 740,150" />
+
+  <!-- Labels for curves -->
+  <circle cx="700" cy="90" r="5" fill="#2a9d8f"/>
+  <text x="600" y="120" class="legend">Uzliksiz o'rganish</text>
+
+  <circle cx="700" cy="150" r="5" fill="#e76f51"/>
+  <text x="500" y="175" class="legend">Yuqori boshlang'ich qobiliyat (past o'sish)</text>
+
+  <!-- Annotations -->
+  <text x="100" y="310" class="label">Boshlanish nuqtasi</text>
+  <text x="460" y="110" class="label">Davomli o'sish</text>
+  <text x="300" y="160" class="label">Sekin o'sish</text>
+
+  <!-- Arrows -->
+  <line x1="100" y1="300" x2="70" y2="320" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="460" y1="120" x2="430" y2="140" stroke="#000" marker-end="url(#arrow)" />
+  <line x1="310" y1="170" x2="330" y2="190" stroke="#000" marker-end="url(#arrow)" />
+
+  <!-- Arrowhead Definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5"
+            orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000" />
+    </marker>
+  </defs>
+</svg>
