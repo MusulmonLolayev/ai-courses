@@ -84,10 +84,11 @@ Sun'iy Intellekt faniga xush kelibsiz
    
 
 .. toctree::
-   :caption: Kutubxonalar: Numpy asoslari
+   :caption: Kutubxonalar: Asoslar
    :maxdepth: 2
 
    libs1/numpy_lib
+   libs1/matplot_lib
 
 .. toctree::
    :caption: Mashinali o'rganish 2: Parametrsiz usullar
