@@ -70,9 +70,9 @@ Sun'iy Intellekt faniga xush kelibsiz
    :caption: Statistika va Ehtimolik 1
    :maxdepth: 2
 
-   statistics_probability/statistics
-   statistics_probability/probabilities
-   statistics_probability/bayes_methods
+   stats_probs1/statistics
+   stats_probs1/probabilities
+   stats_probs1/bayes_methods
 
 .. toctree::
    :caption: Python 3
@@ -96,6 +96,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    ml2/intro
    ml2/knn
    ml2/distance_metrics
+   ml2/scaling
 
 
 .. toctree::
