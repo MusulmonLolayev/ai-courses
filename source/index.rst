@@ -101,7 +101,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 
 
 .. toctree::
-   :caption: Kutubxonalar: Kengaytirilgan Numpy
+   :caption: Kutubxonalar: Kengaytirilgan
    :maxdepth: 2
 
    libs2/numpy_lib
