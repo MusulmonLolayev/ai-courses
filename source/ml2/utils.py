@@ -114,8 +114,43 @@ def draw_knn_illustration(ks=[],
 
     if save:
         plt.savefig("./images/knn_illustration.svg")
+
+
+def p_norm_illustration():
+    # Values of p to visualize
+    p_values = [0.2, 0.4, 0.5, 1, 2, 10, 1000]
+    colors = ['yellow', 'red', 'orange', 'green', 'blue', 'purple', 'black']
+
+    # Create grid of x and y
+    x = np.linspace(-1.5, 1.5, 400)
+    y = np.linspace(-1.5, 1.5, 400)
+    X, Y = np.meshgrid(x, y)
+
+    plt.figure(figsize=(7, 7))
+    for i, p in enumerate(p_values):
+        Z = np.power(np.abs(X), p) + np.power(np.abs(Y), p)
+        plt.contour(X, Y, Z, 
+                    levels=[1], 
+                    colors=[colors[i]], 
+                    linewidths=2, 
+                    label=f'$p = {p}$')
+
+    # Fix legend by creating custom lines
+    from matplotlib.lines import Line2D
+    custom_lines = [Line2D([0], [0], color=c, lw=2) for c in colors]
+    plt.legend(custom_lines, [f'p = {p}' for p in p_values])
+
+    plt.axhline(0, color='black', linewidth=0.5)
+    plt.axvline(0, color='black', linewidth=0.5)
+    plt.gca().set_aspect('equal')
+    plt.title("2 o'lchovli fazoda birlik p-normalar to'plami")
+    plt.grid(True)
+    plt.xlabel('x')
+    plt.ylabel('y')
+    plt.savefig('./images/p-norm.svg')
     
 
 if __name__ == '__main__':
     # draw_knn_illustration()
-    draw_knn_illustration(ks=[1, 4, 15])
+    # draw_knn_illustration(ks=[1, 4, 15])
+    p_norm_illustration()

@@ -1,4 +1,8 @@
 /* Ensure the sidebar content does not overflow */
+body{
+    font-family: "Times New Roman", serif;
+}
+
 .wy-nav-side {
     overflow-y: auto;
 }
