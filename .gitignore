@@ -165,3 +165,6 @@ datasets/*
 
 
 locale/
+
+# locally development: MathJax
+source/_static/mathjax
