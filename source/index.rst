@@ -34,6 +34,7 @@ Sun'iy Intellekt faniga xush kelibsiz
    python1/python_intro
    python1/data_storing
    python1/tasks1
+   python1/installation
    python1/variables
    python1/operators
    python1/tasks2
