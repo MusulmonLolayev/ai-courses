@@ -10,7 +10,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 |  *Telegram kanali*: https://t.me/suniy_ong_uz
 |  *YouTube kanali*: https://www.youtube.com/@tqqt_llc
 |  *Mualif*: Musulmon Lolaev, "TQQT" LLC
-|  *Yangilangan*: 06.05.2025
+|  *Yangilangan*: 20.10.2025
 |  *Holati*: Tugalanmagan. Izoh: Ushbu ishni yozish davom etmoqda hamda har doim yangilanib boradi. Har qanday xatolikni uchratsangiz, iltimos bizga aloqaga chiqing va shu orqali ushbu ishning saviyasini oshirishga hissa qo‘shing.
 |  *Ruxsat*: Ushbu qo‘llanmadan o‘rganish uchun shaxsiy va tijoriy maqsadlarda foydalanish mumkin. Ammo qo‘lanmaning biror qismidan yoki to‘lig‘icha olib biror "**Mualliflik**" asosida har qanday kitob, qo‘llanman va h.k. chiqarish mumkin emas.
 |  *Aloqa uchun*: email -- musulmon.lolayev.94@gmail.com; (telegram) -- @mrd_rd.
@@ -33,12 +33,13 @@ Sun'iy Intellekt faniga xush kelibsiz
    python1/intro
    python1/python_intro
    python1/data_storing
+   python1/tasks1
    python1/variables
    python1/operators
-   python1/tasks1
+   python1/tasks2
    python1/built_in_funcs
    python1/if_else
-   python1/tasks2
+   python1/tasks3
 
 .. toctree::
    :caption: Chiziqli algebra 1
