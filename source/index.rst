@@ -10,7 +10,7 @@ Sun'iy Intellekt faniga xush kelibsiz
 |  *Telegram kanali*: https://t.me/suniy_ong_uz
 |  *YouTube kanali*: https://www.youtube.com/@tqqt_llc
 |  *Mualif*: Musulmon Lolaev, "TQQT" LLC
-|  *Yangilangan*: 20.10.2025
+|  *Yangilangan*: 28.10.2025
 |  *Holati*: Tugalanmagan. Izoh: Ushbu ishni yozish davom etmoqda hamda har doim yangilanib boradi. Har qanday xatolikni uchratsangiz, iltimos bizga aloqaga chiqing va shu orqali ushbu ishning saviyasini oshirishga hissa qo‘shing.
 |  *Ruxsat*: Ushbu qo‘llanmadan o‘rganish uchun shaxsiy va tijoriy maqsadlarda foydalanish mumkin. Ammo qo‘lanmaning biror qismidan yoki to‘lig‘icha olib biror "**Mualliflik**" asosida har qanday kitob, qo‘llanman va h.k. chiqarish mumkin emas.
 |  *Aloqa uchun*: email -- musulmon.lolayev.94@gmail.com; (telegram) -- @mrd_rd.
@@ -56,8 +56,11 @@ Sun'iy Intellekt faniga xush kelibsiz
    :maxdepth: 2
 
    python2/while_loop
+   python2/tasks1
    python2/arrays
+   python2/tasks2
    python2/functions
+   python2/tasks3
 
 .. toctree::
    :caption: Mashinali o'rganish 1: Kirish
