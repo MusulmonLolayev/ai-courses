@@ -53,9 +53,9 @@ math_numfig = True
 numfig_secnum_depth = 2
 math_eqref_format = "Eq.{number}"
 
-# mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
-mathjax_path = "/_static/mathjax/tex-mml-chtml.js"
+# mathjax_path = "/_static/mathjax/tex-mml-chtml.js"
 
 mathjax_config = {
     'TeX': {'equationNumbers': {'autoNumber': 'AMS', 'useLabelIds': True}},
